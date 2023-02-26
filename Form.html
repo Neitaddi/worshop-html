@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="welcome.html" method="post">
+      <table>
+        <tr>
+          <td><label for="name">Name</label></td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="lastname">Last Name</label></td>
+          <td><input type="text" name="lastname" /></td>
+        </tr>
+        <tr>
+          <td><label for="tel">phone</label></td>
+          <td><input type="tel" name="tel" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td><input type="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="sexe">Sexe</label></td>
+          <td>
+            <table>
+              <tr>
+                <td><input type="radio" /><label for="">femme</label></td>
+              </tr>
+              <tr>
+                <td><input type="radio" /><label for="">homme</label></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="domaine">domaine</label></td>
+          <td>
+            <select name="" id="">
+              <option value="">development</option>
+              <option value="">resaux</option>
+              <option value="">BI</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="cv">Resume</label></td>
+          <td><input type="file" /></td>
+        </tr>
+        <tr>
+          <td><label for="dete">Date</label></td>
+          <td><input type="datetime-local" /></td>
+        </tr>
+        <tr>
+          <td><label for="desc">descreption</label></td>
+          <td>
+            <textarea name="desc" id="" cols="10" rows="10">ecrire</textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Envoyer" /></td>
+          <td><input type="reset" value="Annuler" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
